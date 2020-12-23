@@ -19,7 +19,8 @@ export default function Footer() {
   return (
     <React.Fragment>
       <CssBaseline />
-      <Container maxWidth="md">
+      {/* <Container maxWidth="md"> */}
+      <Container fixed>
         <BottomNavigation
           value={value}
           onChange={(event, newValue) => {

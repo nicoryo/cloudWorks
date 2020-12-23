@@ -12,7 +12,8 @@ export default function ServicesContainer() {
   return (
     <React.Fragment>
       <CssBaseline />
-      <Container maxWidth="md">
+      {/* <Container maxWidth="md"> */}
+      <Container fixed>
         {/* <Typography component="div" style={{ backgroundColor: '#cfe8fc', height: '50vh' }} /> */}
         <section class="page-section" id="services">
 						<div class="container">

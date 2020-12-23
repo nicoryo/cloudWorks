@@ -10,7 +10,8 @@ export default function SimpleContainer() {
   return (
     <React.Fragment>
       <CssBaseline />
-      <Container maxWidth="md">
+      {/* <Container maxWidth="md"> */}
+      <Container fixed>
         {/* <Typography component="div" style={{ backgroundColor: '#cfe8fc', height: '100vh' }}> */}
           <section class="page-section bg-light" id="portfolio">
             <div class="row justify-content-center mb-5">

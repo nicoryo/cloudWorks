@@ -7,7 +7,8 @@ export default function AboutContainer() {
   return (
     <React.Fragment>
       <CssBaseline />
-      <Container maxWidth="md">
+      {/* <Container maxWidth="md"> */}
+      <Container fixed>
         {/* <Typography component="div" style={{ backgroundColor: '#ffffff', height: '20vh' }}></Typography> */}
         <section class="page-section bg-light" id="about">
 						<div class="container">
