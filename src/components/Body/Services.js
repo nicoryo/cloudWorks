@@ -1,6 +1,6 @@
 import React from 'react';
 import CssBaseline from '@material-ui/core/CssBaseline';
-import Typography from '@material-ui/core/Typography';
+// import Typography from '@material-ui/core/Typography';
 import Container from '@material-ui/core/Container';
 import Service01Card from './Services/Service01';
 import Service02Card from './Services/Service02';
