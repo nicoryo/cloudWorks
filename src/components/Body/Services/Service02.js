@@ -71,7 +71,7 @@ export default function Service02Card() {
       <img src={`${process.env.PUBLIC_URL}/syukatsu_jiko_appeal_man.png`} />
       <CardContent>
         <Typography variant="body2" color="textSecondary" component="p">
-          ○witterや○nstagramのような、スクレイピングのハードルが高いアプリのフォロー、フォロワーなどを取得します。
+          某SNSサイトでスクレイピングのハードルが高いアプリのフォロー、フォロワーなどを取得します。
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
@@ -96,7 +96,7 @@ export default function Service02Card() {
         <CardContent>
           <Typography paragraph>具体的な例</Typography>
           <Typography paragraph>
-          　○witterや○nstagramのようなスクレイピングのハードルが高いアプリで、フォロー、フォロワーの情報を取得します。
+          　某SNSサイトのようなスクレイピングのハードルが高いアプリでフォロー、フォロワーの情報を取得します。
           　そんなプログラムを作成しお渡しします。
           </Typography>
           <Typography paragraph>

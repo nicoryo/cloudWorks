@@ -72,7 +72,7 @@ export default function Service03Card() {
       
       <CardContent>
         <Typography variant="body2" color="textSecondary" component="p">
-          例えば、寿司打のような入力とデータ取得が難しいアプリでも、高得点を出せるツールを作成します。
+          タイピングゲームのようなWebゲームで高得点を出すアプリを作成します。
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
@@ -97,7 +97,7 @@ export default function Service03Card() {
         <CardContent>
           <Typography paragraph>具体的な例</Typography>
           <Typography paragraph>
-            寿司打のようなWebアプリを自動化します。
+          タイピングゲームのようなWebゲームで高得点を出すアプリを作成します。
             Seleniumを使ってWebブラウザを扱い、PILを使い画像処理を行い入力を行います。
           </Typography>
           <Typography paragraph>

@@ -18,11 +18,8 @@ export default function AboutContainer() {
 												<p class="text-muted px-3">在宅ワークで時間を持て余し、趣味で始めたプログラミングでいろいろなことができるようになりました。
                         業務でもデータの取り扱いを担当しており、プログラミングを使ってデータ収集を行っております。
 												ルーチン作業の自動化やスクレイピング等、幅広くご相談ください。
-														<a href="https://note.com/mi_212" target="_blank" rel="noopener noreferrer">note</a>や<a href="https://twitter.com/mi21216" target="_blank" rel="noopener noreferrer">Twitter</a>でも情報発信しています。
-														仕事の依頼も含めたご連絡は<a href="https://twitter.com/mi21216" target="_blank" rel="noopener noreferrer">Twitter</a>のDMよりお願い致します。
-												</p>
+                        </p>
 												{/* <!--<h3 class="section-subheading text-muted">これまでの</h3>--> */}
-								
 										</div>
 								</div>
 						</div>
