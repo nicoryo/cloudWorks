@@ -43,7 +43,7 @@ export default function Portfolio02Card() {
   const classes = useStyles();
   const [expanded, setExpanded] = React.useState(false);
 
-  const handleExpandClick = () => {
+  const handleExpandClick05 = () => {
     setExpanded(!expanded);
   };
 
@@ -86,7 +86,7 @@ export default function Portfolio02Card() {
           className={clsx(classes.expand, {
             [classes.expandOpen]: expanded,
           })}
-          onClick={handleExpandClick}
+          onClick={handleExpandClick05}
           aria-expanded={expanded}
           aria-label="show more"
         >

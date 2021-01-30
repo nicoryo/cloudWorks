@@ -43,7 +43,7 @@ export default function Service02Card() {
   const classes = useStyles();
   const [expanded, setExpanded] = React.useState(false);
 
-  const handleExpandClick = () => {
+  const handleExpandClick02 = () => {
     setExpanded(!expanded);
   };
 
@@ -55,11 +55,11 @@ export default function Service02Card() {
             R
           </Avatar>
         }
-        action={
-          <IconButton aria-label="settings">
-            <MoreVertIcon />
-          </IconButton>
-        }
+        // action={
+        //   <IconButton aria-label="settings">
+        //     <MoreVertIcon />
+        //   </IconButton>
+        // }
         title="SNSをスクレイピングします！"
         // subheader="2020/12/23"
       />
@@ -71,21 +71,21 @@ export default function Service02Card() {
       <img src={`${process.env.PUBLIC_URL}/syukatsu_jiko_appeal_man.png`} />
       <CardContent>
         <Typography variant="body2" color="textSecondary" component="p">
-          某SNSサイトでスクレイピングのハードルが高いアプリのフォロー、フォロワーなどを取得します。
+          某SNSサイトでフォロー、フォロワーなどを取得してリスト作成します。
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
-        <IconButton aria-label="add to favorites">
+        {/* <IconButton aria-label="add to favorites">
           <FavoriteIcon />
         </IconButton>
         <IconButton aria-label="share">
           <ShareIcon />
-        </IconButton>
+        </IconButton> */}
         <IconButton
           className={clsx(classes.expand, {
             [classes.expandOpen]: expanded,
           })}
-          onClick={handleExpandClick}
+          onClick={handleExpandClick02}
           aria-expanded={expanded}
           aria-label="show more"
         >
@@ -96,8 +96,10 @@ export default function Service02Card() {
         <CardContent>
           <Typography paragraph>具体的な例</Typography>
           <Typography paragraph>
-          　某SNSサイトのようなスクレイピングのハードルが高いアプリでフォロー、フォロワーの情報を取得します。
-          　そんなプログラムを作成しお渡しします。
+          　某SNSサイトでフォロー、フォロワーの情報を取得します。
+          　ログインが可能なWebサイトでも、お任せください。
+          　法的リスクを考慮したスクレイピングツールを作成します。
+          　もちろん、ソースコードをお渡しすることも可能です。
           </Typography>
           <Typography paragraph>
           </Typography>

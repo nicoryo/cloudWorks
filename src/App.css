@@ -17,6 +17,7 @@
   text-align: center;
   flex-direction: row;
   flex-wrap: wrap;
+  align-items: center;
 }
 .portfolioContainer{
   display: flex;

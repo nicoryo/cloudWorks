@@ -14,15 +14,16 @@ export default function SimpleContainer() {
       <Container fixed>
         {/* <Typography component="div" style={{ backgroundColor: '#cfe8fc', height: '100vh' }}> */}
           <section class="page-section bg-light" id="portfolio">
-            <div class="row justify-content-center mb-5">
+            <div class="container">
               <div class="col-lg-8 text-center">
                 <h2 class="section-heading text-uppercase">Portfolio</h2>
-                  <hr class="divider light my-4" />
-                    <div className="portfolioContainer">
-                      <Portfolio01Card />
-                      <Portfolio02Card />
-                      <Portfolio03Card />
-                    </div>
+                <hr class="divider light my-4" />
+                <p class="text-muted px-3">私のポートフォリオを紹介します。下記に該当しない場合も気軽にご相談ください。</p>
+              </div>
+              <div className="portfolioContainer">
+                <Portfolio01Card />
+                <Portfolio02Card />
+                {/* <Portfolio03Card /> */}
               </div>
             </div>
           </section>

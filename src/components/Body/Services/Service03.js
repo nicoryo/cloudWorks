@@ -43,7 +43,7 @@ export default function Service03Card() {
   const classes = useStyles();
   const [expanded, setExpanded] = React.useState(false);
 
-  const handleExpandClick = () => {
+  const handleExpandClick03 = () => {
     setExpanded(!expanded);
   };
 
@@ -55,13 +55,13 @@ export default function Service03Card() {
             R
           </Avatar>
         }
-        action={
-          <IconButton aria-label="settings">
-            <MoreVertIcon />
-          </IconButton>
-        }
+        // action={
+        //   <IconButton aria-label="settings">
+        //     <MoreVertIcon />
+        //   </IconButton>
+        // }
         title="自動処理ツール作成します"
-        subheader="September 14, 2016"
+        subheader=""
       />
       {/* <CardMedia
         className={classes.media}
@@ -76,17 +76,17 @@ export default function Service03Card() {
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
-        <IconButton aria-label="add to favorites">
+        {/* <IconButton aria-label="add to favorites">
           <FavoriteIcon />
         </IconButton>
         <IconButton aria-label="share">
           <ShareIcon />
-        </IconButton>
+        </IconButton> */}
         <IconButton
           className={clsx(classes.expand, {
             [classes.expandOpen]: expanded,
           })}
-          onClick={handleExpandClick}
+          onClick={handleExpandClick03}
           aria-expanded={expanded}
           aria-label="show more"
         >

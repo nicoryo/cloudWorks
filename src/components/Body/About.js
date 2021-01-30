@@ -16,8 +16,8 @@ export default function AboutContainer() {
 										<div class="col-lg-8 text-center">
 												<h2 class="section-heading text-uppercase">About</h2>
 												<hr class="divider light my-4" />
-												<p class="text-muted px-3">在宅ワークで時間を持て余し、趣味で始めたプログラミングでいろいろなことができるようになりました。
-                        業務でもデータの取り扱いを担当しており、プログラミングを使ってデータ収集を行っております。
+												<p class="text-muted px-3">
+                        業務でもデータの取り扱いを担当しており、プログラミングを使ってデータ収集や自動化を行っております。
 												ルーチン作業の自動化やスクレイピング等、幅広くご相談ください。
                         </p>
 												{/* <!--<h3 class="section-subheading text-muted">これまでの</h3>--> */}

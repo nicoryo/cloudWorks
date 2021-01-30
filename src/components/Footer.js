@@ -6,6 +6,7 @@ import Container from '@material-ui/core/Container';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import FacebookIcon from '@material-ui/icons/Facebook';
+import Typography from '@material-ui/core/Typography';
 const useStyles = makeStyles({
   root: {
     width: 500,
@@ -29,9 +30,12 @@ export default function Footer() {
           showLabels
           className={classes.root}
         >
-          <BottomNavigationAction label="Twetter" icon={<TwitterIcon />} />
-          <BottomNavigationAction label="Facebook" icon={<FacebookIcon />} />
-          Copyright © ,  2020
+          {/* <BottomNavigationAction label="Twetter" icon={<TwitterIcon />} />
+          <BottomNavigationAction label="Facebook" icon={<FacebookIcon />} /> */}
+          <Typography paragraph>
+          Copyright SATO2828,  2021
+          </Typography>
+          
         </BottomNavigation>
       </Container>
     </React.Fragment>

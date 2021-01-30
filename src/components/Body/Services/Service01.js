@@ -43,7 +43,7 @@ export default function Service01Card() {
   const classes = useStyles();
   const [expanded, setExpanded] = React.useState(false);
 
-  const handleExpandClick = () => {
+  const handleExpandClick01 = () => {
     setExpanded(!expanded);
   };
 
@@ -55,11 +55,11 @@ export default function Service01Card() {
             A
           </Avatar>
         }
-        action={
-          <IconButton aria-label="settings">
-            <MoreVertIcon />
-          </IconButton>
-        }
+        // action={
+        //   <IconButton aria-label="settings">
+        //     <MoreVertIcon />
+        //   </IconButton>
+        // }
         title="データリストを作成します！"
         subheader=""
       />
@@ -72,21 +72,21 @@ export default function Service01Card() {
       <img src={`${process.env.PUBLIC_URL}/business_senryaku_sakuryaku_man.png`} />
       <CardContent>
         <Typography variant="body2" color="textSecondary" component="p">
-          GoogleMapやCrowdWorksなど検索エンジンからデータを収集します。
+          GoogleMapやCrowdWorksなど検索エンジンからデータを収集しリスト作成します。
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
         <IconButton aria-label="add to favorites">
-          <FavoriteIcon />
+          <a href="https://coconala.com/services/1529778?ref=profile_top_service"><FavoriteIcon /></a>
         </IconButton>
-        <IconButton aria-label="share">
+        {/* <IconButton aria-label="share">
           <ShareIcon />
-        </IconButton>
+        </IconButton> */}
         <IconButton
           className={clsx(classes.expand, {
             [classes.expandOpen]: expanded,
           })}
-          onClick={handleExpandClick}
+          onClick={handleExpandClick01}
           aria-expanded={expanded}
           aria-label="show more"
         >
@@ -97,7 +97,10 @@ export default function Service01Card() {
         <CardContent>
           <Typography paragraph>具体的な導入例:</Typography>
           <Typography paragraph>
-            GoogleMapやCroudWorksなどで検索した結果をスクレイピングしてリスト化します。
+            GoogleMapやCroudWorksなどをスクレイピングして、
+            データを取集しリストを作成します。
+            「九州地方」「美容室」の「業者名」「住所」「電話番号」などの条件があれば、
+            1~2日で納品できます。
           </Typography>
           <Typography paragraph>
           </Typography>
